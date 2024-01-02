@@ -1,8 +1,8 @@
-# codelijst-vochtgehaltetypes
+# codelijst-vochtgehaltetype
 
 ## Samenvatting
 
-De codelijst 'vochtgehaltetypes' bevat eenduidige benamingen van ...
+De codelijst 'vochtgehaltetype' bevat eenduidige benamingen van ...
 
 
 ## Projectinhoud

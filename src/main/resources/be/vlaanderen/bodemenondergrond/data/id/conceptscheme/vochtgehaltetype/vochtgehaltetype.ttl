@@ -1,0 +1,50 @@
+@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/vochtgehaltetype/> .
+@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
+@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+ct:3    rdf:type           skos:Concept;
+        dc:identifier      "3";
+        skos:inScheme      cs:vochtgehaltetype;
+        skos:prefLabel     "vochtig"@nl;
+        skos:topConceptOf  cs:vochtgehaltetype .
+
+cs:vochtgehaltetype  skos:hasTopConcept
+                ct:4 , ct:2 , ct:3 , ct:5 , ct:1 .
+
+ct:5    rdf:type           skos:Concept;
+        dc:identifier      "5";
+        skos:inScheme      cs:vochtgehaltetype;
+        skos:prefLabel     "verzadigd"@nl;
+        skos:topConceptOf  cs:vochtgehaltetype .
+
+ct:2    rdf:type           skos:Concept;
+        dc:identifier      "2";
+        skos:inScheme      cs:vochtgehaltetype;
+        skos:prefLabel     "weinig vochtig"@nl;
+        skos:topConceptOf  cs:vochtgehaltetype .
+
+ct:4    rdf:type           skos:Concept;
+        dc:identifier      "4";
+        skos:inScheme      cs:vochtgehaltetype;
+        skos:prefLabel     "zeer vochtig"@nl;
+        skos:topConceptOf  cs:vochtgehaltetype .
+
+colt:vochtgehaltetype
+        rdf:type              skos:Collection;
+        dc:identifier         "vochtgehaltetype";
+        skos:inScheme         <file:///tmp/Rtmp17qGzl/cs>;
+        skos:mappingRelation  <file:///tmp/Rtmp17qGzl/vochtgehaltetype>;
+        skos:member           ct:2 , ct:3 , ct:1 , ct:4 , ct:5;
+        skos:prefLabel        "Collectie van vochtgehaltetype."@nl .
+
+ct:1    rdf:type           skos:Concept;
+        dc:identifier      "1";
+        skos:inScheme      cs:vochtgehaltetype;
+        skos:prefLabel     "droog"@nl;
+        skos:topConceptOf  cs:vochtgehaltetype .

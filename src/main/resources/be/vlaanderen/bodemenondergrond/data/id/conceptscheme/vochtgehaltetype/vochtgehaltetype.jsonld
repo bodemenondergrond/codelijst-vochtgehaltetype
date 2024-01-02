@@ -1,0 +1,142 @@
+{
+    "@graph": [
+        {
+            "@id": "ct:3",
+            "skos:topConceptOf": {
+                "@id": "cs:vochtgehaltetype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "vochtig"
+            },
+            "skos:inScheme": {
+                "@id": "cs:vochtgehaltetype"
+            },
+            "dc:identifier": "3",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "cs:vochtgehaltetype",
+            "skos:hasTopConcept": [
+                {
+                    "@id": "ct:1"
+                },
+                {
+                    "@id": "ct:5"
+                },
+                {
+                    "@id": "ct:3"
+                },
+                {
+                    "@id": "ct:2"
+                },
+                {
+                    "@id": "ct:4"
+                }
+            ]
+        },
+        {
+            "@id": "ct:1",
+            "skos:topConceptOf": {
+                "@id": "cs:vochtgehaltetype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "droog"
+            },
+            "skos:inScheme": {
+                "@id": "cs:vochtgehaltetype"
+            },
+            "dc:identifier": "1",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:5",
+            "skos:topConceptOf": {
+                "@id": "cs:vochtgehaltetype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "verzadigd"
+            },
+            "skos:inScheme": {
+                "@id": "cs:vochtgehaltetype"
+            },
+            "dc:identifier": "5",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:2",
+            "skos:topConceptOf": {
+                "@id": "cs:vochtgehaltetype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "weinig vochtig"
+            },
+            "skos:inScheme": {
+                "@id": "cs:vochtgehaltetype"
+            },
+            "dc:identifier": "2",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:4",
+            "skos:topConceptOf": {
+                "@id": "cs:vochtgehaltetype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "zeer vochtig"
+            },
+            "skos:inScheme": {
+                "@id": "cs:vochtgehaltetype"
+            },
+            "dc:identifier": "4",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "colt:vochtgehaltetype",
+            "skos:member": [
+                {
+                    "@id": "ct:2"
+                },
+                {
+                    "@id": "ct:3"
+                },
+                {
+                    "@id": "ct:1"
+                },
+                {
+                    "@id": "ct:4"
+                },
+                {
+                    "@id": "ct:5"
+                }
+            ],
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Collectie van vochtgehaltetype."
+            },
+            "skos:mappingRelation": {
+                "@id": "file:///tmp/Rtmp17qGzl/vochtgehaltetype"
+            },
+            "dc:identifier": "vochtgehaltetype",
+            "@type": "skos:Collection",
+            "skos:inScheme": {
+                "@id": "file:///tmp/Rtmp17qGzl/cs"
+            }
+        }
+    ],
+    "@context": {
+        "cs": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "ct": "https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/",
+        "dct": "http://purl.org/dc/terms/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "colt": "https://data.bodemenondergrond.vlaanderen.be/id/collection/vochtgehaltetype/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
+    }
+}
