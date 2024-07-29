@@ -1,0 +1,8 @@
+uri,type,dc.identifier,collections,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
+conceptscheme:vochtgehaltetype,,be.vlaanderen.bodemenondergrond.data.id.conceptscheme.vochtgehaltetype,,,lijst met types vochtgehalte,,,,,,,,,,,,,,,,,,,,
+collectie:vochtgehaltetype,skos:Collection,,,vochtgehaltetype,Collectie van vochtgehaltetype.,,,,,,,,,,,,,conceptscheme:vochtgehaltetype,,,,,,,
+1,skos:Concept,,collectie:vochtgehaltetype,1,droog,,,,,,,,,,,,,conceptscheme:vochtgehaltetype,,,,,,,conceptscheme:vochtgehaltetype
+5,skos:Concept,,collectie:vochtgehaltetype,5,verzadigd,,,,,,,,,,,,,conceptscheme:vochtgehaltetype,,,,,,,conceptscheme:vochtgehaltetype
+3,skos:Concept,,collectie:vochtgehaltetype,3,vochtig,,,,,,,,,,,,,conceptscheme:vochtgehaltetype,,,,,,,conceptscheme:vochtgehaltetype
+2,skos:Concept,,collectie:vochtgehaltetype,2,weinig vochtig,,,,,,,,,,,,,conceptscheme:vochtgehaltetype,,,,,,,conceptscheme:vochtgehaltetype
+4,skos:Concept,,collectie:vochtgehaltetype,4,zeer vochtig,,,,,,,,,,,,,conceptscheme:vochtgehaltetype,,,,,,,conceptscheme:vochtgehaltetype

@@ -1,7 +1,0 @@
-uri,type,dc.id,collection,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
-colt:vochtgehaltetype,skos:Collection,vochtgehaltetype,,,Collectie van vochtgehaltetype.,,,,,,,,,,,,,cs,vochtgehaltetype,,,,,,
-ct:1,skos:Concept,1,colt:vochtgehaltetype,,droog,,,,,,,,,,,,,cs:vochtgehaltetype,,,,,,,cs:vochtgehaltetype
-ct:5,skos:Concept,5,colt:vochtgehaltetype,,verzadigd,,,,,,,,,,,,,cs:vochtgehaltetype,,,,,,,cs:vochtgehaltetype
-ct:3,skos:Concept,3,colt:vochtgehaltetype,,vochtig,,,,,,,,,,,,,cs:vochtgehaltetype,,,,,,,cs:vochtgehaltetype
-ct:2,skos:Concept,2,colt:vochtgehaltetype,,weinig vochtig,,,,,,,,,,,,,cs:vochtgehaltetype,,,,,,,cs:vochtgehaltetype
-ct:4,skos:Concept,4,colt:vochtgehaltetype,,zeer vochtig,,,,,,,,,,,,,cs:vochtgehaltetype,,,,,,,cs:vochtgehaltetype
