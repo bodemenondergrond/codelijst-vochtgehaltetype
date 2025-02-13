@@ -1,5 +1,4 @@
 @prefix concept: <https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/>.
-@prefix collectie: <https://data.bodemenondergrond.vlaanderen.be/id/collection/vochtgehaltetype/>.
 @prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
 @prefix adms: <http://www.w3.org/ns/adms#>.
 @prefix assettype: <http://purl.org/adms/assettype/>.
@@ -54,37 +53,52 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-collectie:vochtgehaltetype a skos:Collection;
+concept:droog dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.vochtgehaltetype.droog";
+    a skos:Concept;
+    skos:definition "De grond is droog, er is weinig tot geen water aanwezig in de poriën. Bij het bevochtigen wordt de kleur donkerder, bij het open wrijven wordt de kleur bijna niet lichter"@nl;
     skos:inScheme conceptscheme:vochtgehaltetype;
-    skos:member <https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/4>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/5>;
-    skos:notation "vochtgehaltetype";
-    skos:prefLabel "Collectie van vochtgehaltetype."@nl.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/1> a skos:Concept;
-    skos:inScheme conceptscheme:vochtgehaltetype;
-    skos:notation "1";
+    skos:notation "droog";
+    skos:note "De grond is droog, er is weinig tot geen water aanwezig in de poriën. Bij het bevochtigen wordt de kleur donkerder, bij het open wrijven wordt de kleur bijna niet lichter"@nl, "Definitie overgenomen van: https://publicaties.onroerenderfgoed.be/HAOE-29-BeschrijvenBodems/04_bodembeschrijving.html"@nl;
     skos:prefLabel "droog"@nl;
     skos:topConceptOf conceptscheme:vochtgehaltetype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/2> a skos:Concept;
+concept:verzadigd dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.vochtgehaltetype.verzadigd";
+    a skos:Concept;
+    rdfs:seeAlso <https://publicaties.onroerenderfgoed.be/HAOE-29-BeschrijvenBodems/04_bodembeschrijving.html>;
+    skos:definition "De grond is volledig verzadigd met water dat uit de poriën sijpelt. Bij het bevochtigen of open wrijven treedt er geen kleurverandering op. De grondoppervlakte is glanzend."@nl;
     skos:inScheme conceptscheme:vochtgehaltetype;
-    skos:notation "2";
-    skos:prefLabel "weinig vochtig"@nl;
+    skos:notation "verzadigd";
+    skos:note "De grond is volledig verzadigd met water dat uit de poriën sijpelt. Bij het bevochtigen of open wrijven treedt er geen kleurverandering op. De grondoppervlakte is glanzend."@nl, "Definitie overgenomen van: https://publicaties.onroerenderfgoed.be/HAOE-29-BeschrijvenBodems/04_bodembeschrijving.html"@nl;
+    skos:prefLabel "verzadigd"@nl;
     skos:topConceptOf conceptscheme:vochtgehaltetype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/3> a skos:Concept;
+concept:vochtig dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.vochtgehaltetype.vochtig";
+    a skos:Concept;
+    rdfs:seeAlso <https://publicaties.onroerenderfgoed.be/HAOE-29-BeschrijvenBodems/04_bodembeschrijving.html>;
+    skos:definition "De grond bevat een aanzienlijke hoeveelheid water maar is nog niet verzadigd. Er is geen vrij water zichtbaar. Bij het bevochtigen treedt er geen kleurverandering op. Bij het open wrijven wordt de kleur duidelijk lichter. De grondoppervlakte is zwak glanzend."@nl;
     skos:inScheme conceptscheme:vochtgehaltetype;
-    skos:notation "3";
+    skos:notation "vochtig";
+    skos:note "De grond bevat een aanzienlijke hoeveelheid water maar is nog niet verzadigd. Er is geen vrij water zichtbaar. Bij het bevochtigen treedt er geen kleurverandering op. Bij het open wrijven wordt de kleur duidelijk lichter. De grondoppervlakte is zwak glanzend."@nl, "Definitie overgenomen van: https://publicaties.onroerenderfgoed.be/HAOE-29-BeschrijvenBodems/04_bodembeschrijving.html"@nl;
     skos:prefLabel "vochtig"@nl;
     skos:topConceptOf conceptscheme:vochtgehaltetype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/4> a skos:Concept;
+concept:weinigvochtig dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.vochtgehaltetype.weinigvochtig";
+    a skos:Concept;
+    rdfs:seeAlso <https://publicaties.onroerenderfgoed.be/HAOE-29-BeschrijvenBodems/04_bodembeschrijving.html>;
+    skos:definition "De grond bevat een gematigde hoeveelheid water. Bij het bevochtigen wordt de kleur iets donkerder, bij het open wrijven wordt de kleur duidelijk lichter. De grondoppervlakte is niet glanzend."@nl;
     skos:inScheme conceptscheme:vochtgehaltetype;
-    skos:notation "4";
-    skos:prefLabel "zeer vochtig"@nl;
+    skos:notation "weinigvochtig";
+    skos:note "De grond bevat een gematigde hoeveelheid water. Bij het bevochtigen wordt de kleur iets donkerder, bij het open wrijven wordt de kleur duidelijk lichter. De grondoppervlakte is niet glanzend."@nl, "Definitie overgenomen van: https://publicaties.onroerenderfgoed.be/HAOE-29-BeschrijvenBodems/04_bodembeschrijving.html"@nl;
+    skos:prefLabel "weinig vochtig"@nl;
     skos:topConceptOf conceptscheme:vochtgehaltetype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/5> a skos:Concept;
+concept:zeervochtig dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.vochtgehaltetype.zeervochtig";
+    a skos:Concept;
+    rdfs:seeAlso <https://publicaties.onroerenderfgoed.be/HAOE-29-BeschrijvenBodems/04_bodembeschrijving.html>;
+    skos:altLabel "nat"@nl;
+    skos:definition "De grond bevat een grote hoeveelheid water, dicht bij verzadiging, maar is nog niet volledig verzadigd. Bij het bevochtigen treedt er geen kleurverandering op. Bij het open wrijven wordt de kleur iets lichter. De grondoppervlakte is glanzend."@nl;
     skos:inScheme conceptscheme:vochtgehaltetype;
-    skos:notation "5";
-    skos:prefLabel "verzadigd"@nl;
+    skos:notation "zeervochtig";
+    skos:note "De grond bevat een grote hoeveelheid water, dicht bij verzadiging, maar is nog niet volledig verzadigd. Bij het bevochtigen treedt er geen kleurverandering op. Bij het open wrijven wordt de kleur iets lichter. De grondoppervlakte is glanzend."@nl, "Definitie overgenomen van: https://publicaties.onroerenderfgoed.be/HAOE-29-BeschrijvenBodems/04_bodembeschrijving.html"@nl;
+    skos:prefLabel "zeer vochtig"@nl;
     skos:topConceptOf conceptscheme:vochtgehaltetype.
 conceptscheme:vochtgehaltetype dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.vochtgehaltetype";
     a skos:ConceptScheme;
-    skos:hasTopConcept <https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/4>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/vochtgehaltetype/5>;
-    skos:prefLabel "lijst met types vochtgehalte"@nl.
+    skos:hasTopConcept concept:droog, concept:verzadigd, concept:vochtig, concept:weinigvochtig, concept:zeervochtig;
+    skos:prefLabel "Conceptschema vochtgehalte"@nl.
